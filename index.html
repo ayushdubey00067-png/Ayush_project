@@ -1,2 +1,84 @@
-<p>my name is aayush</p>
-<p>this is my first project</p>
+<!DOCTYPE html>
+<!-- saved from url=(0040)file:///C:/Users/HP/Documents/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book a Drink</title>
+    <link rel="stylesheet" href="./Book a Drink_files/style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>THE DRINK HUT</h1>
+            <p>Choose your drink, and we'll serve it to you!</p>
+        </div>
+    </header>
+
+    <!-- Drink Selection Section -->
+    <section id="drinks">
+        <div class="container">
+            <h2>Select Your Drink</h2>
+            <div class="drink-options">
+                <div class="drink-card">
+                    <img src="./Book a Drink_files/1_CAH_Article_HeartSbxCraftedCoffee_2880x1660.jpg.webp" alt="Coffee">
+                    <h3>Coffee</h3>
+                    <p>A freshly brewed cup of coffee to kickstart your day!</p>
+                    <button class="book-btn">Book Now</button>
+                </div>
+                <div class="drink-card">
+                    <img src="./Book a Drink_files/1000_F_512356682_nXjlfDWYsmnTyDOW54wzgLApXgzHeHEy.jpg" alt="Tea">
+                    <h3>Tea</h3>
+                    <p>Relax with a warm, calming cup of tea.</p>
+                    <button class="book-btn">Book Now</button>
+                </div>
+                <div class="drink-card">
+                    <img src="./Book a Drink_files/images" alt="Juice">
+                    <h3>Juice</h3>
+                    <p>Freshly squeezed juice to refresh your day.</p>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="booking">
+        <div class="container">
+            <h2>Book Your Drink</h2>
+            <form action="file:///C:/Users/HP/Documents/index.html#" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required="" placeholder="Enter your name">
+                                    <label for="contact NO">Contact NO:</label>
+                <input type="digit" id="name" name="name" required="" placeholder="Enter your number">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required="" placeholder="Enter your email">
+
+                <label for="drink">Choose Drink:</label>
+                <select id="drink" name="drink" required="">
+                    <option value="coffee">Coffee</option>
+                    <option value="tea">Tea</option>
+                    <option value="juice">Juice</option>
+                </select>
+
+                <label for="message">Special Requests:</label>
+                <textarea id="message" name="message" placeholder="Any special requests or preferences"></textarea>
+
+                <button type="submit" class="submit-btn">Book Drink</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>© 2024 THE DRINK HUT| All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+</body></html>
